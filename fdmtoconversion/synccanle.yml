@@ -1,0 +1,25 @@
+connectors:
+  FDM Printer:
+    type: 4 pin
+    subtype: Y-CLS
+    pinlabels: ["1", "2", "3", "4", "5", "6"]
+  DriverBoard:
+    type: Molex SL 6 Way
+    subtype: Stepper Interface
+    pinlabels: [5V, AS, AD, BS, BD, 0V]
+
+
+cables:
+  W1:
+    gauge: 24 AWG
+    #length: 0.2
+    colors: [VT, BU, GN, YE]
+    wirecount: 4
+    shield: false
+
+
+connections:
+  -
+    - FDM Printer: [2,3,5,6]
+    - W1: [1-4]
+    - DriverBoard: [1,6,4,3]

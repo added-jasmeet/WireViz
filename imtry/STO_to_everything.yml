@@ -1,0 +1,89 @@
+connectors:
+  X STO Molex MicroFit:
+    type: X STO Technosoft Drive
+    #subtype: 39-01-2040
+    pinlabels: [STO 2+, STO 1+, STO 2-, STO 1-]
+    notes: 39-01-2040
+  Ferrules:
+    type: Ferrules 
+    #subtype: Ferrules
+    pinlabels: [ST2P.YL, ST1P.YR, ST2N.BL, ST1N.BR]
+    notes: |
+          Ferrules to Corresponding Terminal Distribution Blocks 
+          Phoenix Contact PTFIX 4X1,5 BK(1046616) + YE(1046612)     
+  Ground Terminal Block:
+    #type: GND
+    pinlabels: [GND]
+    notes: |
+          Phoenix Contact (3273124)
+          PTFIX 6/18X2,5-NS35 BK
+  Reed Switch Left:
+    type: RS Pro IP67 SPST
+    subtype: 268-4855
+    pinlabels: [Yellow Left, 24V]
+    notes: Cable Mount Reed Switch 0.5A 100Vdc
+  Reed Switch Right:
+    type: RS Pro IP67 SPST
+    subtype: 268-4855
+    pinlabels: [Yellow Right, 24V]
+    notes: Cable Mount Reed Switch 0.5A 100Vdc
+  24V Terminal Block:
+    pinlabels: [24V]
+    notes: |
+          Phoenix Contact (3273118)
+          PTFIX 6/18X2,5-NS35 GN
+
+cables:
+  W1:
+    #gauge: 24 AWG
+    #length: 0.2
+    category: bundle
+    colors: [YE, BN, GN, WH]
+    manufacturer: [Yellow Left, Yellow Right, Black Left, Black Right]
+    wirecount: 4
+    shield: false
+  W2:
+    colors: [BK, BK]
+    wirecount: 2
+  W3:
+    colors: [WH, BN]
+    wirecount: 2
+  W4:
+    colors: [WH, BN]
+    wirecount: 2
+
+
+connections:
+  -
+    - Ferrules: [1]
+    - W3: [1]
+    - Reed Switch Left: [1]
+  -
+    - Ferrules: [2]
+    - W4: [1]
+    - Reed Switch Right: [1]
+
+  -
+    - X STO Molex MicroFit: [1-4]
+    - W1: [1-4]
+    - Ferrules: [1-4]
+  -
+    - Ferrules: [3, 4]
+    - W2: [1-2]
+    - Ground Terminal Block: [1 ,1]
+  -
+    - 24V Terminal Block: [1]
+    - W3: [2]
+    - Reed Switch Left: [2]
+  -
+    - 24V Terminal Block: [1]
+    - W4: [2]
+    - Reed Switch Right: [2]
+  
+
+ 
+
+
+
+
+  

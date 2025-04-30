@@ -1,0 +1,27 @@
+connectors:
+  DriverBoard Power:
+    type: Molex Mini-Fit Jr
+    subtype: 39-01-2040
+    pinlabels: [36V, GND, GND, 24V]
+  Ferrules:
+    type: Ferrules to Corresponding Terminal Blocks
+    subtype: Ferrules
+    pinlabels: [+36V, GND, GND, +24V]
+
+
+cables:
+  W1:
+    #gauge: 24 AWG
+    #length: 0.2
+    colors: [YE, GN, WH, BN]
+    wirecount: 4
+    shield: false
+
+
+connections:
+  -
+    - DriverBoard Power: [1-4]
+    - W1: [1-4]
+    - Ferrules: [1-4]
+
+  

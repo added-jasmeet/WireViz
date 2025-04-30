@@ -1,0 +1,30 @@
+connectors:
+  24V Axial Fan:
+    type: Molex SL 2 way Non-Trigger
+    #subtype: female
+    pinlabels: [24V, GND]
+    notes: |
+          RS Pro (668-8858)
+          120 x 120 x 25mm 
+  Ferrules:
+    #type: Ferrules to Corresponding Terminal Blocks
+    subtype: Ferrules
+    pinlabels: [24V, GND]
+    notes: | 
+          Ferrules to Corresponding Terminal Blocks
+          Phoenix Contact PTFIX 6/18X2,5-NS35 
+          GN (3273118) + BK (3273124)
+
+cables:
+  W1:
+    colors: [RD, BK]
+    wirecount: 
+    shield: false
+
+connections:
+  -
+    - 24V Axial Fan: [1,2]
+    - W1: [1,2]
+    - Ferrules: [1,2]
+  
+  

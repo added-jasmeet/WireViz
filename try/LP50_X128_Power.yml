@@ -1,0 +1,25 @@
+connectors:
+  Molex Mini Fit Jr Plug:
+    type: Molex SL 4 Way
+    pincount: 4
+    pinlabels: [36V, GND, GND, 24V]
+  M12 Panel Mount Plug:
+    #pincount: 5
+    pinlabels: [Brown, White, Blue, Black]
+
+cables:
+  W1:
+    colors: [BN, WH, BU, BK]
+    #BU, OG, GN, BN, PK, YE, VT]
+    wirecount: 4
+    #length: "7.5 cm"
+    #shield: true
+
+
+connections:
+  -
+    - M12 Panel Mount Plug: [1-4]
+    - W1: [1-4]
+    - Molex Mini Fit Jr Plug: [1, 4,2,3 ]
+
+    

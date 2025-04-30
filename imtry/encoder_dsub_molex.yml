@@ -1,0 +1,62 @@
+connectors:
+  X1:
+    type: X, Y and Z Encoder
+    subtype: LA11 Encoder
+    pinlabels: [Inner Shield, GND Supply, MA+, MA-, A+, B+, +Vin Supply, +Vin Sense, -, A-, B-,-, SLO+, SLO-, GND Sense]
+    notes: RLS LA11 Absolute Linear Encoder
+  X2:
+    type: DSUB 15
+    subtype: Feedback 2 Technosoft Drive
+    pinlabels: [+5Vout, SL+, SL-, B2+/Dir+, A2+/Pulse+, +Vlog, MA+, MA-, Z2+, Z2-, GND, FDBK, -, B2-/Dir-, A2-/Pulse-]
+    notes: |
+          TE Connetivity Amplimite HDP-22
+          15 Way D-sub (1658678-1)
+  X3:
+    type: Molex SL for X Encoder Only
+    subtype: 4 way Female
+    pinlabels: [A+, A-, B+, B-]
+    notes: 1 row 4 way 
+  X4: 
+    type: SAMTEC Mini Mate IPD1
+    subtype: Female
+    pinlabels: [Channel 2-, Channel 1-, GND, Channel 4-, Channel 3+, Channel 2+, Channel 1+, 5V, Channel 4+, Channel 3-]
+    notes: |
+          Male, 10 way, 2 row 
+          (IPD1-05-D-K)
+
+cables:
+  W1:
+    #gauge: 24 AWG
+    #length: 0.2
+    category: bundle
+    colors: [SN, WH, GN, YE, BN, OG, BU, RD, SR]
+    manufacturer: [Inner Shield, White, Green, Yellow, Brown, Orange, Blue, Red, Transparent]
+    wirecount: 9
+    shield: false
+  W2:
+    category: bundle
+    manufacturer: [Purple, Black, Grey, Pink]
+    colors: [VT, BK, SL, PK]
+    wirecount: 4
+  W3:
+    category: bundle
+    manufacturer: [Yellow, Brown, Green, White]
+    colors: [YE, BN, GN, WH]
+
+connections:
+  -
+    - X1: [2,3,4,7,8,13, 14, 15]
+    - W1: [2-9]
+    - X2: [11, 7, 8, 1, 1, 2, 3, 11]
+  -
+    - X1: [5, 10, 6, 11]
+    - W2: [1-4]
+    - X3: [1-4]
+  -
+    - X1: 1
+    - W1: 1
+  -
+    - X3: [1-4]
+    - W3: [1-4]
+    - X4: [7, 2, 9, 4]
+  

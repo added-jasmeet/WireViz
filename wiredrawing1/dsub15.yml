@@ -1,0 +1,27 @@
+connectors:
+  X1:
+    type: DSUB 15
+    subtype: male
+    pinlabels: [Strobe Out, ENC B+,"-" , ENC A+, "-", HW Trigger+,"-" , GND, "-", ENC B-, "-", ENC A-, "-" , HW Trigger-, "-"]
+  X2:
+    type: SAMTEC Mini Mate IPD1
+    subtype: females
+    pinlabels: [ENC B-, ENC A-, GND, "-", HW Trigger+, ENC B+, ENC A+, +5V, "-", HW Trigger-]
+
+
+cables:
+  W1:
+    gauge: 24 AWG
+    #length: 0.2
+    colors: [BU, OG, GN, BN, PK, YE, VT]
+    wirecount: 7
+    shield: false
+
+
+connections:
+  -
+    - X1: [2,4,6,8,10,12,14]
+    - W1: [1-7]
+    - X2: [6,7,5,3,1,2,10]
+
+  

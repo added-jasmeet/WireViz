@@ -1,0 +1,29 @@
+connectors:
+  X1:
+    type: DSUB 15 Male
+    subtype: LP50 X128 Bus Board
+    pincount: 15
+    pinlabels: [AUX_LS_IN+, AUX_RXD1+, AUX_LS_OUT+, AUX_TXD1+, AUX_RXD2+, AUX_TXD2+, 5V_ISO, GND_ISO, AUX_LS_IN-, AUX_RXD1-, AUX_LA_OUT-, AUX_TXD1-, AUX_RXD2-, AUX_TXD2-, GND_ISO ]
+  X2: 
+    type: SAMTEC Mini Mate IPD1
+    subtype: Female
+    pinlabels: [Channel 2-, Channel 1-, GND, Channel 4-, Channel 3+, Channel 2+, Channel 1+, 5V, Channel 4+, Channel 3-]
+    notes: |
+          Male, 10 way, 2 row 
+          (IPD1-05-D-K)
+
+cables:
+  W1:
+    #gauge: 24 AWG
+    #length: 0.2
+    #category: bundle
+    colors: [WHOG, OG, GN, BN, WHBU, BU, WHGN]
+    wirecount: 7
+    shield: false
+
+connections:
+  -
+    - X1: [4, 4, 6, 8, 12, 12, 14]
+    - W1: [1-7]
+    - X2: [1, 2, 9, 3, 6, 7, 4]
+  

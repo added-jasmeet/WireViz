@@ -1,0 +1,18 @@
+Id	Description	Qty	Unit	Designators	Manufacturer
+1	Connector, DSUB 15, Feedback 2 Technosoft Drive, 15 pins	1		X2	
+2	Connector, Molex SL for X Encoder Only, 4 way Female, 4 pins	1		X3	
+3	Connector, SAMTEC Mini Mate IPD1, Female, 10 pins	1		X4	
+4	Connector, X, Y and Z Encoder, LA11 Encoder, 15 pins	1		X1	
+5	Wire, BK	0	m	W2	Black
+6	Wire, BN	0	m	W1, W3	Brown
+7	Wire, BU	0	m	W1	Blue
+8	Wire, GN	0	m	W1, W3	Green
+9	Wire, OG	0	m	W1	Orange
+10	Wire, PK	0	m	W2	Pink
+11	Wire, RD	0	m	W1	Red
+12	Wire, SL	0	m	W2	Grey
+13	Wire, SN	0	m	W1	Inner Shield
+14	Wire, SR	0	m	W1	Transparent
+15	Wire, VT	0	m	W2	Purple
+16	Wire, WH	0	m	W1, W3	White
+17	Wire, YE	0	m	W1, W3	Yellow

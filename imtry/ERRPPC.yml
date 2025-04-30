@@ -1,0 +1,25 @@
+connectors:
+  DSUB 15 Female:
+    #type: Molex SL 2 way Non-Trigger
+    #subtype: female
+    pinlabels: ["","", USET, GND, "",Error Reset,"", "", "", "", "", "", "", Pulse OK, Ext 24 Volts]
+
+  Pico V1 Board:
+    #subtype: Ferrules to Corresponding Terminal Blocks
+    type: Molex MinFit
+    pinlabels: [RS232TX_OUT, USET_OUT,ERRST_OUT, PULS_OK_OUT,V_PRESENCE_24, RS232RX_OUT, GND, GND, GND, V_PRESENCE_24]
+
+
+cables:
+  W1:
+    colors: [YE, GY, WH, GN, BN] #WHGY STRIPEY, WHGN STRIPEY
+    #wirecount: 5
+    length: 121 mm
+    shield: false
+
+connections:
+  -
+    - DSUB 15 Female: [3,6,14,4,15]
+    - W1: [1-5]
+    - Pico V1 Board: [2,3,4,8,10]
+  

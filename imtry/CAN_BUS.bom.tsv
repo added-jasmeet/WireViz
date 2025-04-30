@@ -1,0 +1,5 @@
+Id	Description	Qty	Unit	Designators
+1	Cable, 2 wires	0	m	W2, W3, W5
+2	Cable, 2 x 24 AWG	0	m	W1
+3	Connector, Ferrules, 2 pins	1		Ferrules
+4	Connector, Molex Micro Fit, 4 pins	3		CAN Control, Heater, OMNI CAN

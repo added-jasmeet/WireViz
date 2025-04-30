@@ -1,0 +1,31 @@
+connectors:
+  MotherBoard Power:
+    type: Molex Mini-Fit Jr
+    subtype: 39-01-2040
+    pinlabels: [-, 12V, GND, -]
+  Ferrules:
+    #type: Ferrules to Corresponding Terminal Blocks
+    subtype: Ferrules
+    pinlabels: [+12V, GND]
+    notes: | 
+          Ferrules to Corresponding Terminal Blocks
+          Phoenix Contact PTFIX 6/18X2,5-NS35 
+          GN (3273118) + BK (3273124)
+
+
+cables:
+  W1:
+    #gauge: 24 AWG
+    #length: 0.2
+    colors: [BN, WH]
+    wirecount: 2
+    shield: false
+
+
+connections:
+  -
+    - MotherBoard Power: [2,3]
+    - W1: [1-2]
+    - Ferrules: [1-2]
+
+  

@@ -1,0 +1,10 @@
+Id	Description	Qty	Unit	Designators	Manufacturer
+1	Cable, 2 wires	0	m	W2, W3, W4	
+2	Connector, 1 pins	2		24V Terminal Block, Ground Terminal Block	
+3	Connector, Ferrules, 4 pins	1		Ferrules	
+4	Connector, RS Pro IP67 SPST, 268-4855, 2 pins	2		Reed Switch Left, Reed Switch Right	
+5	Connector, X STO Technosoft Drive, 4 pins	1		X STO Molex MicroFit	
+6	Wire, BN	0	m	W1	Yellow Right
+7	Wire, GN	0	m	W1	Black Left
+8	Wire, WH	0	m	W1	Black Right
+9	Wire, YE	0	m	W1	Yellow Left

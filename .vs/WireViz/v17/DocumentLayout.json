@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jasmeet\\Documents\\GitHub\\WireViz\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jasmeet\\Documents\\GitHub\\WireViz\\examples\\demo01.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:examples\\demo01.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jasmeet\\Documents\\GitHub\\WireViz\\examples\\demo01.gv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:examples\\demo01.gv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jasmeet\\Documents\\GitHub\\WireViz\\examples\\demo01.bom.tsv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:examples\\demo01.bom.tsv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jasmeet\\Documents\\GitHub\\WireViz\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jasmeet\\Documents\\GitHub\\WireViz\\setup.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:setup.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "demo01.html",
+              "DocumentMoniker": "C:\\Users\\Jasmeet\\Documents\\GitHub\\WireViz\\examples\\demo01.html",
+              "RelativeDocumentMoniker": "examples\\demo01.html",
+              "ToolTip": "C:\\Users\\Jasmeet\\Documents\\GitHub\\WireViz\\examples\\demo01.html",
+              "RelativeToolTip": "examples\\demo01.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-23T08:54:57.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "demo01.gv",
+              "DocumentMoniker": "C:\\Users\\Jasmeet\\Documents\\GitHub\\WireViz\\examples\\demo01.gv",
+              "RelativeDocumentMoniker": "examples\\demo01.gv",
+              "ToolTip": "C:\\Users\\Jasmeet\\Documents\\GitHub\\WireViz\\examples\\demo01.gv",
+              "RelativeToolTip": "examples\\demo01.gv",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-23T08:54:38.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "demo01.bom.tsv",
+              "DocumentMoniker": "C:\\Users\\Jasmeet\\Documents\\GitHub\\WireViz\\examples\\demo01.bom.tsv",
+              "RelativeDocumentMoniker": "examples\\demo01.bom.tsv",
+              "ToolTip": "C:\\Users\\Jasmeet\\Documents\\GitHub\\WireViz\\examples\\demo01.bom.tsv",
+              "RelativeToolTip": "examples\\demo01.bom.tsv",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-23T08:54:30.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "requirements.txt",
+              "DocumentMoniker": "C:\\Users\\Jasmeet\\Documents\\GitHub\\WireViz\\requirements.txt",
+              "RelativeDocumentMoniker": "requirements.txt",
+              "ToolTip": "C:\\Users\\Jasmeet\\Documents\\GitHub\\WireViz\\requirements.txt",
+              "RelativeToolTip": "requirements.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-09-23T08:54:18.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "setup.py",
+              "DocumentMoniker": "C:\\Users\\Jasmeet\\Documents\\GitHub\\WireViz\\setup.py",
+              "RelativeDocumentMoniker": "setup.py",
+              "ToolTip": "C:\\Users\\Jasmeet\\Documents\\GitHub\\WireViz\\setup.py",
+              "RelativeToolTip": "setup.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHeSURBVDhPpVMxa1NRFP7ebZLSlgaltNpSVCySRUxL0NAh4FJpHWpxcZAUBEPG/AKHDsVBN5eGrCnoYKCDoDiUCKKBjtZBUZtJ2ojYJr40ue\u002B\u002B47k3VzD0hQr94OOed8853/k47z2cCETk2NAgk8mQDQMhhFjK5/Mb9vEotIDruoEsFovEzVvZbPaWLTcQ9uxCpVLp4l\u002Bk0\u002BlEPB5/wIPm7RVC9uxCMpm0UTdKpRKi0WiCQy3wUt8FCvw7VSNxbRapG4voDwucGgyjXC7bzH84ePt1HysbH/GhWoNstzA1OoSFhZuxQqFg8sfu4FutAd\u002BT8KSEYm7v7GJ0YnLClgYLaAcjU9N4Vx9Dda8OBz7OjwywSNsIXY39vEL7TxWpxv2eO3hWHUZ19xc8ti25UdvXzdpNWH0BDj8JiLOrPXfweOu9mRgRhOXUEPr7IiBfYeacB9HaBNRvQH4f6\u002BlgMERwGxJP7grEoq9shj9Uz\u002BVGpmIi4vXcwdzlcePgzLAuZPiSGw869Jg\u002Biw1Mvw50oLGcuoh71y8h1HwB1Js8UfFLnwScNnBhdYVLWsy1IwK5XM5GHaw9uu0LeSCMddZA32lz7zjOQxMcByK1SPU3O/Rjnai2fkjNz8/5L77TyQJ/AJc67LNf3QeWAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-09-23T08:54:13.678Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

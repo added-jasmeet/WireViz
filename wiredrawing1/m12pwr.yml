@@ -1,0 +1,37 @@
+connectors:
+  X1:
+    type: M12 Connector
+    subtype: male
+    pinlabels: [-24V, GND, +24V, GND]
+  X2:
+    type: Molex Mini Fit Jr
+    subtype: female
+    pinlabels: [-24V, GND, +24V, GND]
+  X3:
+    type: 24V DC Axial Fan
+    pinlabels: [+24V, GND]
+
+cables:
+  W1:
+    #gauge: 24 AWG
+    #length: 0.2
+    colors: [WH, BU, BN, BK]
+      ## BN, WH, BU, BK
+    wirecount: 4
+    shield: false
+  W2:
+    #gauge: 24 AWG
+    #length: 0.2
+    colors: [RD, BK]
+    show_equiv: false
+
+connections:
+  -
+    - X1: [1-4]
+    - W1: [1-4]
+    - X2: [1-4]
+  -
+    - X3: [1,2]
+    - W2: [1,2]
+    - X2: [3,4]
+  

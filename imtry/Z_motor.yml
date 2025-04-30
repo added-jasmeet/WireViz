@@ -1,0 +1,38 @@
+connectors:
+  Z Motor:
+    type: Molex SL 4 Way
+    pincount: 4
+    pinlabels: ["A+", "A-", "B+", "B-"]
+  Technosoft Drive Motor:
+    #pincount: 5
+    pinlabels: ["A/A+", "B/A-", "C/B-", "CR/B-", "Earth"]
+
+cables:
+  W1:
+    colors: [RD, BN, YE, OG]
+    #BU, OG, GN, BN, PK, YE, VT]
+    wirecount: 4
+    #length: "7.5 cm"
+    shield: true
+  W2: 
+    colors: [WH, BN, YE, GN]
+    #[YE, GN, WH, BN]
+    wirecount: 4
+    #length: "75 cm"
+    shield: true
+
+connections:
+  -
+    - Z Motor: [1-4]
+    - W1: [1-4]
+    - Technosoft Drive Motor: [1-4]
+  -
+    - W1: [S]
+    - Technosoft Drive Motor: [5]
+  -
+    - Z Motor: [1-4]
+    - W2: [1-4]
+    - Technosoft Drive Motor: [1-4]
+  -
+    - W2: [S]
+    - Technosoft Drive Motor: [5]
