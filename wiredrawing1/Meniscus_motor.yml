@@ -1,0 +1,27 @@
+connectors:
+  Motor:
+    type: KNF
+    #subtype: male
+    pinlabels: [Blue, Black, Green, Red]
+  X2:
+    type: Molex Mini Fit Jr
+    subtype: female
+    pinlabels: [-24V, GND, +24V, GND]
+
+
+cables:
+  W1:
+    #gauge: 24 AWG
+    #length: 0.2
+    colors: [BU, BK, GN, RD]
+      # BN, WH, BU, BK
+    wirecount: 4
+    shield: false
+
+
+connections:
+  -
+    - X1: [1-4]
+    - W1: [1,2,4]
+    - X2: [1-4]
+  -
